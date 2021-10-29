@@ -1,0 +1,26 @@
+{
+  "name": "webcalculator",
+  "version": "1.0.0",
+  "description": "VVS_project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexdarau/WebCalculator.git"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexdarau/WebCalculator/issues"
+  },
+  "homepage": "https://github.com/alexdarau/WebCalculator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "type": "module"
+}
