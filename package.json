@@ -4,7 +4,7 @@
   "description": "VVS_project",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,11 +16,12 @@
     "url": "https://github.com/alexdarau/WebCalculator/issues"
   },
   "homepage": "https://github.com/alexdarau/WebCalculator#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
   "devDependencies": {
+    "@babel/preset-env": "^7.16.0",
     "jest": "^27.3.1"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

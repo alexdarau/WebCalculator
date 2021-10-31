@@ -1,5 +1,6 @@
 import express from 'express';
 import path from 'path';
+const __dirname = path.resolve();
 
 const app = express();
 const port = process.env.PORT || 8080;
@@ -15,6 +16,10 @@ app.get('/index.html',function(req,res){
  app.get('/public/script.js',function(req,res){
      res.sendFile(path.join(__dirname + '/public/script.js')); 
  });
+
+ app.get('/public/calculator.js',function(req,res){
+    res.sendFile(path.join(__dirname + '/public/calculator.js')); 
+});
  
  app.get('/', function(req, res) {
      res.redirect('index.html');
