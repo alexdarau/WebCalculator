@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GUI/1.0.0": {
+        "dependencies": {
+          "SeleniumUser": "0.0.7"
+        },
+        "runtime": {
+          "GUI.dll": {}
+        }
+      },
+      "Selenium.Support/2.30.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "2.30.0"
+        },
+        "runtime": {
+          "lib/net40/WebDriver.Support.dll": {
+            "assemblyVersion": "2.30.0.0",
+            "fileVersion": "2.30.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/2.30.0": {
+        "runtime": {
+          "lib/net40/WebDriver.dll": {
+            "assemblyVersion": "2.30.0.0",
+            "fileVersion": "2.30.0.0"
+          }
+        }
+      },
+      "SeleniumUser/0.0.7": {
+        "dependencies": {
+          "Selenium.Support": "2.30.0",
+          "Selenium.WebDriver": "2.30.0"
+        },
+        "runtime": {
+          "lib/SeleniumUser.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Selenium.Support/2.30.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VVdDcmHCktGdFJKOPv3UdnSiaDYycO6ZSPMXVFJC4mw7nWKpcxfAt13r6lBJ7UX/OJc+DGMOEWuEN1eyWVuMtA==",
+      "path": "selenium.support/2.30.0",
+      "hashPath": "selenium.support.2.30.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver/2.30.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f8vvfA/3OJmXFdSHj7+2SIjz15ds/HXXZh4nAL/62Gpk7fbDHII7h9GQY9/GFrBNYi3Yg6S42uHXPfoHSzIOEw==",
+      "path": "selenium.webdriver/2.30.0",
+      "hashPath": "selenium.webdriver.2.30.0.nupkg.sha512"
+    },
+    "SeleniumUser/0.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ywF5tKwCWb1Rz4e93/IWXlMmABYn4oeKM6D9FrOXRzA82d1fSXVdRbdrUSTuK6ikxQq8modrMU7++G8jV78K9g==",
+      "path": "seleniumuser/0.0.7",
+      "hashPath": "seleniumuser.0.0.7.nupkg.sha512"
+    }
+  }
+}
